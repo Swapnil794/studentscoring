@@ -4,7 +4,7 @@ exports.averageMarks= (req,res) =>{
     .exec((err,marks)=>{
         if(err){
             return res.status(400).json({
-                error : "not able to get ALL product"
+                error : "not able to get marks"
             })
         }
 
